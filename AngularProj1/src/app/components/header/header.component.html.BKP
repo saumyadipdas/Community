@@ -1,0 +1,253 @@
+<!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <!-- Brand --
+    <a class="navbar-brand" href="#">Logo</a>
+
+    <!-- Links --
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+        </li>
+
+        <!-- Dropdown --
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Dropdown link
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </li>
+    </ul>
+</nav>  
+ -->
+
+
+
+
+<header class="header-nav-wrap">
+
+      <div class="header-nav__right">
+        <ul id="js-header-nav">
+          <li>
+            <a href="https://electrifai.net/product/machinelearningmodels" class="caps" data-submenu="0">Machine
+              Learning Models</a>
+          </li>
+
+          <li>
+            <a class="caps" data-submenu="1">Industries</a>
+          </li>
+
+          <li>
+            <a href="https://electrifai.net/partners" class="caps" data-submenu="2">Partners</a>
+          </li>
+
+          <li>
+            <a href="https://electrifai.net/about" class="caps" data-submenu="3">Company</a>
+          </li>
+
+          <li>
+            <a href="/contact#lets-talk" class="cta caps">
+              <div class="btn btn--yellow">
+                Request A Demo
+              </div>
+            </a>
+          </li>
+
+
+          <li>
+            <a class="caps" href="https://electrifai.net/ch">
+              中文
+            </a>
+          </li>
+
+        </ul>
+      </div><!-- Is it reqd?-->
+        <!-- <div id="hamburger">
+          <img src="~assets/images/global/icon-hamburger.svg"> --
+          <img src="">
+          <div class="hamburger__bar"></div>
+          <div class="hamburger__bar"></div>
+          <div class="hamburger__bar"></div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="header-nav__submenu-wrap hidden">
+
+      <div class="header-nav__submenu" id="header-nav__submenu__1" data-submenu="1">
+        <div class="lockout">
+
+          <div class="col col-12 mb1 mt1 menu-wrapper">
+
+            <div class="col col-12 sm-col-4 pr4">
+              <div class="h5 header-nav__submenu__headline pb1">
+                Industries
+              </div>
+              <div class="header-nav__submenu__lede">
+                <p>Modernize your Ai strategy and easily target specific pain points with ElectrifAi's deep domain
+                  expertise in many industries.</p>
+              </div>
+            </div>
+
+
+            <div class="col col-12 sm-col-4 flex flex-column">
+              <ul class="col col-12 flex flex-row flex-wrap items-stretch" >
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/industries/banking">Banking</a>
+                </li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a
+                    href="https://electrifai.net/industries/insurance">Insurance</a></li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a
+                    href="https://electrifai.net/industries/telecommunications">Telecommunications</a></li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/industries/retail-cpg">Retail
+                    and CPG</a></li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a
+                    href="https://electrifai.net/industries/healthcare">Healthcare</a></li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a
+                    href="https://electrifai.net/industries/media-entertainment">Media and Entertainment</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="header-nav__submenu" id="header-nav__submenu__2" data-submenu="2">
+        <div class="lockout">
+
+          <div class="col col-12 mb1 mt1 menu-wrapper">
+
+            <div class="col col-12 sm-col-4 pr4">
+              <div class="h5 header-nav__submenu__headline pb1">
+                ElectrifAi Partners
+              </div>
+              <div class="header-nav__submenu__lede">
+                <p>Our partners help customers transform and implement machine learning to achieve real business
+                  solutions, fast. Together, we make Ai and machine learning even more accessible for all
+                  companies.</p>
+              </div>
+            </div>
+
+
+            <div class="col col-12 sm-col-8 col-right flex flex-column">
+              <ul class="col col-12 flex flex-row flex-wrap items-stretch" data-count="2">
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/partners">Partners</a>
+                </li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/partners/aws-partnership">AWS
+                    Partnership</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    
+
+      <div class="header-nav__submenu" id="header-nav__submenu__3" data-submenu="3">
+        <div class="lockout">
+
+          <div class="col col-12 mb1 mt1 menu-wrapper">
+
+            <div class="col col-12 sm-col-4 pr4">
+              <div class="h5 header-nav__submenu__headline pb1">
+                Company
+              </div>
+              <div class="header-nav__submenu__lede">
+                <p>Founded in 2004, ElectrifAi extracts massive amounts of disparate data, transforming chaotic
+                  structured and unstructured data into actionable business insights. We solve business problems
+                  with artificial intelligence (Ai) and machine learning (ML).</p>
+              </div>
+            </div>
+
+
+            <div class="col col-12 sm-col-4 flex flex-column">
+              <ul class="col col-12 flex flex-row flex-wrap items-stretch" data-count="8">
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/about">About</a></li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/leadership">Leadership</a>
+                </li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/events">Events</a></li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/careers">Careers</a></li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/resources">Resources</a>
+                </li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/blog">Blog</a></li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/contact">Contact Us</a>
+                </li>
+                <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/news">News</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="mobile-menu" ref="mobileMenu">
+      <ul class="mobile__inner">
+        <li>
+          <a href="https://electrifai.net/product/machinelearningmodels" class="caps">Machine Learning Models</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/industries/banking" class="caps">Banking</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/industries/insurance" class="caps">Insurance</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/industries/telecommunications" class="caps">Telecommunications</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/industries/retail-cpg" class="caps">Retail and CPG</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/industries/healthcare" class="caps">Healthcare</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/industries/media-entertainment" class="caps">Media and Entertainment</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/partners" class="caps">Partners</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/news" class="caps">News</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/about" class="caps">About</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/blog" class="caps">Blog</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/leadership" class="caps">Leadership</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/events" class="caps">Events</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/careers" class="caps">Careers</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/resources" class="caps">Resources</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/contact" class="caps">Contact</a>
+        </li>
+        <li>
+          <a href="https://electrifai.net/contact#lets-talk" class="caps">Request a Demo</a>
+        </li>
+        <li>
+          <a class="caps swith-sites" href="https://electrifai.net/ch">
+            中文
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+  <!--</div><!-- Is it reqd?-->
+</header>
