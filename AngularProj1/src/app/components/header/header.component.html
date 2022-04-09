@@ -1,253 +1,148 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <!-- Brand -->
-    <a class="navbar-brand" href="#">Logo</a>
-
-    <!-- Links -->
-    <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link 1</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link 2</a>
-        </li>
-
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Dropdown link
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Link 1</a>
-                <a class="dropdown-item" href="#">Link 2</a>
-                <a class="dropdown-item" href="#">Link 3</a>
-            </div>
-        </li>
-    </ul>
-</nav>  
- 
-
-
-<!--
-
- <header class="header-nav-wrap">
-
-  <div class="header-nav__right">
-    <ul id="js-header-nav">
-      <li>
-        <a href="https://electrifai.net/product/machinelearningmodels" class="caps" data-submenu="0">Machine
-          Learning Models</a>
-      </li>
-
-      <li>
-        <a class="caps" data-submenu="1">Industries</a>
-      </li>
-
-      <li>
-        <a href="https://electrifai.net/partners" class="caps" data-submenu="2">Partners</a>
-      </li>
-
-      <li>
-        <a href="https://electrifai.net/about" class="caps" data-submenu="3">Company</a>
-      </li>
-
-      <li>
-        <a href="/contact#lets-talk" class="cta caps">
-          <div class="btn btn--yellow">
-            Request A Demo
-          </div>
-        </a>
-      </li>
-
-
-      <li>
-        <a class="caps" href="https://electrifai.net/ch">
-          中文
-        </a>
-      </li>
-
-    </ul>
-  </div><!-- Is it reqd?-->
-    <!-- <div id="hamburger">
-      <img src="~assets/images/global/icon-hamburger.svg"> --
-      <img src="">
-      <div class="hamburger__bar"></div>
-      <div class="hamburger__bar"></div>
-      <div class="hamburger__bar"></div>
-    </div>
-  </div>
-</div> --
-
-<div class="header-nav__submenu-wrap hidden">
-
-  <div class="header-nav__submenu" id="header-nav__submenu__1" data-submenu="1">
-    <div class="lockout">
-
-      <div class="col col-12 mb1 mt1 menu-wrapper">
-
-        <div class="col col-12 sm-col-4 pr4">
-          <div class="h5 header-nav__submenu__headline pb1">
-            Industries
-          </div>
-          <div class="header-nav__submenu__lede">
-            <p>Modernize your Ai strategy and easily target specific pain points with ElectrifAi's deep domain
-              expertise in many industries.</p>
-          </div>
-        </div>
-
-
-        <div class="col col-12 sm-col-4 flex flex-column">
-          <ul class="col col-12 flex flex-row flex-wrap items-stretch" >
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/industries/banking">Banking</a>
-            </li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a
-                href="https://electrifai.net/industries/insurance">Insurance</a></li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a
-                href="https://electrifai.net/industries/telecommunications">Telecommunications</a></li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/industries/retail-cpg">Retail
-                and CPG</a></li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a
-                href="https://electrifai.net/industries/healthcare">Healthcare</a></li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a
-                href="https://electrifai.net/industries/media-entertainment">Media and Entertainment</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <div class="header-nav__submenu" id="header-nav__submenu__2" data-submenu="2">
-    <div class="lockout">
-
-      <div class="col col-12 mb1 mt1 menu-wrapper">
-
-        <div class="col col-12 sm-col-4 pr4">
-          <div class="h5 header-nav__submenu__headline pb1">
-            ElectrifAi Partners
-          </div>
-          <div class="header-nav__submenu__lede">
-            <p>Our partners help customers transform and implement machine learning to achieve real business
-              solutions, fast. Together, we make Ai and machine learning even more accessible for all
-              companies.</p>
-          </div>
-        </div>
-
-
-        <div class="col col-12 sm-col-8 col-right flex flex-column">
-          <ul class="col col-12 flex flex-row flex-wrap items-stretch" data-count="2">
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/partners">Partners</a>
-            </li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/partners/aws-partnership">AWS
-                Partnership</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="header-nav__submenu" id="header-nav__submenu__3" data-submenu="3">
-    <div class="lockout">
-
-      <div class="col col-12 mb1 mt1 menu-wrapper">
-
-        <div class="col col-12 sm-col-4 pr4">
-          <div class="h5 header-nav__submenu__headline pb1">
-            Company
-          </div>
-          <div class="header-nav__submenu__lede">
-            <p>Founded in 2004, ElectrifAi extracts massive amounts of disparate data, transforming chaotic
-              structured and unstructured data into actionable business insights. We solve business problems
-              with artificial intelligence (Ai) and machine learning (ML).</p>
-          </div>
-        </div>
-
-
-        <div class="col col-12 sm-col-4 flex flex-column">
-          <ul class="col col-12 flex flex-row flex-wrap items-stretch" data-count="8">
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/about">About</a></li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/leadership">Leadership</a>
-            </li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/events">Events</a></li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/careers">Careers</a></li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/resources">Resources</a>
-            </li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/blog">Blog</a></li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/contact">Contact Us</a>
-            </li>
-            <li class="col col-12 sm-col-6 mb2 pb1"><a href="https://electrifai.net/news">News</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<div id="mobile-menu" ref="mobileMenu">
-  <ul class="mobile__inner">
-    <li>
-      <a href="https://electrifai.net/product/machinelearningmodels" class="caps">Machine Learning Models</a>
+<!-- <nav class="navbar navbar-light bg-faded">
+  <a class="navbar-brand" [routerLink]="['home']">Community App
+  </a>
+  <ul class="nav navbar-nav">
+    <li class="nav-item" [routerLinkActive]="['active']">
+      <a class="nav-link" [routerLink]="['home']">Home
+      </a>
     </li>
-    <li>
-      <a href="https://electrifai.net/industries/banking" class="caps">Banking</a>
+    <li class="nav-item" [routerLinkActive]="['active']">
+      <a class="nav-link" [routerLink]="['about-us']">About Us
+      </a>
     </li>
-    <li>
-      <a href="https://electrifai.net/industries/insurance" class="caps">Insurance</a>
+    <li class="nav-item" [routerLinkActive]="['active']">
+      <a class="nav-link" [routerLink]="['gallery']">Gallery
+      </a>
     </li>
-    <li>
-      <a href="https://electrifai.net/industries/telecommunications" class="caps">Telecommunications</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/industries/retail-cpg" class="caps">Retail and CPG</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/industries/healthcare" class="caps">Healthcare</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/industries/media-entertainment" class="caps">Media and Entertainment</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/partners" class="caps">Partners</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/news" class="caps">News</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/about" class="caps">About</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/blog" class="caps">Blog</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/leadership" class="caps">Leadership</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/events" class="caps">Events</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/careers" class="caps">Careers</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/resources" class="caps">Resources</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/contact" class="caps">Contact</a>
-    </li>
-    <li>
-      <a href="https://electrifai.net/contact#lets-talk" class="caps">Request a Demo</a>
-    </li>
-    <li>
-      <a class="caps swith-sites" href="https://electrifai.net/ch">
-        中文
+    <li class="nav-item" [routerLinkActive]="['active']">
+      <a class="nav-link" [routerLink]="['register']">Register
       </a>
     </li>
   </ul>
+</nav> -->
+
+
+
+<!-- <header contentEditable> -->
+
+<!-- Header -->
+<div class="sub-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-5">
+        <ul class="left-info">
+          <li><i class="far fa-envelope"></i>shidhu18@gmail.com</li>
+          <li><i class="fa fa-phone"></i>080-953-83023</li>
+        </ul>
+      </div>
+      <div class="col-5">
+        <ul class="right-icons">
+          <li><a href="#"><i class="fab fa-youtube fa-2x" style="color: red"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook fa-2x" style="color: #385898"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter fa-2x" style="color: #1DA1F2"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin fa-2x" style="color:#0077b5"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <a href="#"><u>Download Brochure</u></a>
+      </div>
+    </div>
+  </div>
 </div>
 
 
-<!--</div><!-- Is it reqd?--
-</header>-->
+
+<div class="container-fluid">
+  <div class="navbar navbar-default">
+    <div class="navbar-header col-2">
+      <img bind-src="communityLogo" width="162" height="30" style="vertical-align:bottom; margin-left: -40px;" />
+    </div>
+
+    <!-- <div class="navbar-header col-10">
+      <nav>
+        <a class="col-1" routerLink="/home" routerLinkActive="active"> Home</a>
+        <a class="col-1" routerLink="/about-us" routerLinkActive="active"> About Us</a>
+        <a class="col-1" routerLink="/product-services" routerLinkActive="active"> Product & Services</a>
+        <a class="col-1" routerLink="/gallery" routerLinkActive="active"> Gallery</a>
+        <a class="col-1" routerLink="/contact-us" routerLinkActive="active"> Contact Us</a>
+        <a class="col-1" routerLink="/register" routerLinkActive="active"> Register</a>
+        <a class="col-1" routerLink="/donation" routerLinkActive="active"> Donation</a>
+      </nav>
+    </div> -->
+
+    <div class="col-9">
+      <nav class="slidemenu">
+  
+        <!-- Item 1 -->
+        <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked (click)="goToHome()"/>
+        <label for="slide-item-1"><p class="icon">🏠</p><span>Home</span></label>
+      
+        <!-- Item 2 -->
+        <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle" (click)="goToAboutUs()"/>
+        <label for="slide-item-2"><p class="icon">⚡</p><span> About Us</span></label>
+        
+        <!-- Item 3 -->
+        <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle" (click)="goToProdServices()"/>
+        <label for="slide-item-3"><p class="icon">🌟</p><span> Product & Services </span></label>
+        
+        <!-- Item 4 -->
+        <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle" (click)="goToGallery()"/>
+        <label for="slide-item-4"><p class="icon">🎭</p><span> Gallery </span></label>
+        
+        <!-- Item 5 -->
+        <input type="radio" name="slideItem" id="slide-item-5" class="slide-toggle" (click)="goToContactUs()"/>
+        <label for="slide-item-5"><p class="icon">📞</p><span> Contact Us </span></label>
+        
+        <!-- Item 6 -->
+        <input type="radio" name="slideItem" id="slide-item-6" class="slide-toggle" (click)="goToRegister()"/>
+        <label for="slide-item-6"><p class="icon">☂️</p><span> Register </span></label>
+      
+        <!-- Item 7 -->
+        <input type="radio" name="slideItem" id="slide-item-7" class="slide-toggle" (click)="goToDonation()"/>
+        <label for="slide-item-7"><p class="icon">💲</p><span> Donation </span></label>
+      
+      
+        <div class="clear"></div>
+        
+        <!-- Bar -->
+        <div class="slider">
+          <div class="bar"></div>
+        </div>
+        
+      </nav>
+    </div>
+
+  </div>
+</div>
+
+<!-- 
+<div>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><h2>Finance Business</h2></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/home" routerLinkActive="active"> Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about-us" routerLinkActive="active"> About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/product-services" routerLinkActive="active"> Product & Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/gallery" routerLinkActive="active"> Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div> -->
+
+

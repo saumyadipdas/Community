@@ -12,7 +12,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { MymodelsComponent } from './components/mymodels/mymodels.component';
+import { CommunityComponent } from './components/community/community.component';
+import { HomeComponent } from './components/community/home/home.component';
+import { AboutUsComponent } from './components/community/about-us/about-us.component';
+import { ProductServicesComponent } from './components/community/product-services/product-services.component';
+import { GalleryComponent } from './components/community/gallery/gallery.component';
+import { ContactUsComponent } from './components/community/contact-us/contact-us.component';
+import { RegisterComponent } from './components/community/register/register.component';
+import { DonationComponent } from './components/community/donation/donation.component';
 
 
 @NgModule({
@@ -20,7 +27,14 @@ import { MymodelsComponent } from './components/mymodels/mymodels.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    MymodelsComponent
+    CommunityComponent,
+    HomeComponent,
+    AboutUsComponent,
+    ProductServicesComponent,
+    GalleryComponent,
+    ContactUsComponent,
+    RegisterComponent,
+    DonationComponent
   ],
   imports: [
     BrowserModule, 
